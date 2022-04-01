@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     func push() {
         let storyboard = UIStoryboard(name: "Main", bundle: .main)
         storyboard.instantiateViewController(withIdentifier: "SecondVC")
+        print("tyty")
         print("Second change")
     }
 }
